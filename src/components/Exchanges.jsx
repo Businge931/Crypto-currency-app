@@ -11,7 +11,7 @@ const { Panel } = Collapse;
 
 const Exchanges = () => {
   const { data, isFetching } = useGetExchangesQuery();
-  console.log(data);
+
 
   const exchangesList = data?.data?.exchanges;
   // Note: To access this endpoint you need premium plan
